@@ -2,10 +2,77 @@
 <html lang="pt">
 <head>
   <meta charset="UTF-8">
-  <title>O meu primeiro site no GitHub Pages</title>
+  <title>Projeto Final Git - GitHub</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      font-size: 1.5em;
+    }
+    nav {
+      width: 200px;
+      background-color: #f2f2f2;
+      padding: 10px;
+      float: left;
+      height: calc(100vh - 60px);
+      box-sizing: border-box;
+    }
+    nav a {
+      display: block;
+      padding: 8px;
+      text-decoration: none;
+      color: #004080;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background-color: #ddd;
+    }
+    section {
+      margin-left: 220px;
+      padding: 15px;
+      height: calc(100vh - 60px);
+      box-sizing: border-box;
+    }
+	footer {
+	  background-color: #002855;
+	  color: white;
+	  text-align: center;
+	  padding: 10px 0;
+	  font-size: 0.9em;
+	}
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
 </head>
 <body>
-  <h1>Bem-vindo ao meu site!</h1>
-  <p>Este site foi criado durante a formação "Introdução ao Git e GitHub".</p>
+  <header>
+    <h2>Formação Git e GitHub</h2>
+	<h4>Conteúdos Básicos</h4>
+  </header>
+  <nav>
+    <a href="home.html" target="conteudo">Início</a>
+    <a href="objetivos.html" target="conteudo">Objetivos</a>
+    <a href="prerequisitos.html" target="conteudo">Pré-Requisitos</a>
+	<a href="etapa1.html" target="conteudo">1 - Criar Repositório GitHub</a>
+	<a href="etapa2.html" target="conteudo">2 - Clonar Respositório com o GitHub Desktop</a>
+	<a href="etapa3_4.html" target="conteudo">3/4 - Criar Index+1ºCommit+Push</a>
+	<a href="etapa5.html" target="conteudo">5 - Ativar GitHub Pages</a>
+	
+  </nav>
+  <section>
+    <iframe name="conteudo" src="home.html"></iframe>
+  </section>
+  <footer>
+      <p>© 2025 João Gouveia | Agrupamento de Escolas nº1 de Beja | Anpri</p>
+  </footer>
 </body>
 </html>
